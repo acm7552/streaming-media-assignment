@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Streaming media HW",
+  "main": ".src/server.js",
+  "scripts": {
+      "start": "node ./src/server.js",
+      "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acm7552/streaming-media-assignment.git"
+  },
+  "author": "Andrew Murphy",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/acm7552/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/acm7552/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
