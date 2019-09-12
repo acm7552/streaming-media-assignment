@@ -19,7 +19,7 @@ const getPage2 = (request, response) => {
 
 const getPage3 = (request, response) => {
   response.writeHead(200, { 'Content-Type': 'text/html' });
-  response.write(index);
+  response.write(page3);
   response.end();
 };
 
