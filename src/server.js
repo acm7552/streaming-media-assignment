@@ -17,7 +17,8 @@ const onRequest = (request, response) => {
       htmlHandler.getPage2(request, response);
       break;
     case '/page3':
-      htmlHandler.getPage3(request, response);      
+      htmlHandler.getPage3(request, response);
+      break;
     default:
       htmlHandler.getIndex(request, response);
       break;
