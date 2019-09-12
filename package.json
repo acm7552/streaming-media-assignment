@@ -4,8 +4,8 @@
   "description": "Streaming media HW",
   "main": ".src/server.js",
   "scripts": {
-      "start": "node ./src/server.js",
-      "pretest": "eslint ./src --fix",
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
     "test": "echo \"Tests complete\""
   },
   "repository": {
