@@ -32,7 +32,7 @@ const loadFile = (request, response, filename, filetype) => {
     const chunksize = (end - start) + 1;
 
     response.writeHead(206, {
-      'Content-Range': `bytes, ${start}-${end}/${total}`,
+      'Content-Range': `bytes ${start}-${end}/${total}`,
       'Accept-Ranges': 'bytes',
       'Content-Length': chunksize,
       'Content-Type': filetype,

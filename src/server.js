@@ -24,7 +24,7 @@ const onRequest = (request, response) => {
       break;
     case '/bird.mp4':
       mediaHandler.getBird(request, response);
-      break;      
+      break;
     default:
       htmlHandler.getIndex(request, response);
       break;
